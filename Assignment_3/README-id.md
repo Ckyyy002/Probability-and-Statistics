@@ -33,10 +33,10 @@
 $$P(y|X) = \frac{P(X|y) \cdot P(y)}{P(X)}$$
 
 **Keterangan (Where):**
-* $P(y|X)$ : *Posterior probability, probability of class $y$ given features $X$*
-* $P(X|y)$ : *Likelihood, probability of features $X$ given class $y$*
-* $P(y)$ : *Prior probability of class $y$*
-* $P(X)$ : *Marginal likelihood or evidence*
+* $P(y|X)$ : *Probabilitas posterior, yaitu probabilitas dari kelas y jika diketahui fitur X*
+* $P(X|y)$ : *kemungkinan, yaitu probabilitas dari fitur X jika diketahui kelas y*
+* $P(y)$ : *Probabilitas prior (awal) dari kelas y*
+* $P(X)$ : *Marginal kemungkinan atau bukti*
 
 ### Cara Kerja Algoritma
 Algoritma Naive Bayes menggunakan prinsip Teorema Bayes di atas. Kata **"Naive" (Naif)** digunakan karena algoritma ini membuat asumsi kuat: **setiap fitur pada data adalah independen (saling bebas) satu sama lain**. 
